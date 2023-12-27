@@ -1,0 +1,4 @@
+[submodule "DeepPanoContext"]
+	path = DeepPanoContext
+	url = https://github.com/3dlg-hcvc/DeepPanoContext
+	branch = r3ds
