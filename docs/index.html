@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="R3DS: Reality-linked 3D Scenes for Panoramic Scene Understanding">
+  <meta name="keywords" content="R3DS, Reality-linked, 3D Scenes, PanoSun">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>R3DS: Reality-linked 3D Scenes for Panoramic Scene Understanding</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G85PZGL346"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-G85PZGL346');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">R3DS: Reality-linked 3D Scenes for Panoramic Scene Understanding</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="">Qirui Wu</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://sonia-raychaudhuri.github.io/">Sonia Raychaudhuri</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://dritchie.github.io/">Daniel Ritchie</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="https://msavva.github.io/">Manolis Savva</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="http://angelxuanchang.github.io/">Angel X. Chang</a><sup>1</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Simon Fraser University,</span>
+              <span class="author-block"><sup>2</sup>Brown University</span>
+            </div>
+            <!-- <div class="is-size-5 publication-authors">
+              <span class="author-block" style="color:#efcc3e">CVPR 2024</span>
+            </div> -->
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <!-- <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span> -->
+                <span class="link-block">
+                  <a href="" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Video Link. -->
+                <span class="link-block">
+                  <a href="https://youtu.be/waI3m7TuyNA" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/3dlg-hcvc/r3ds"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- Dataset Link. -->
+                <span class="link-block">
+                <a href="https://github.com/3dlg-hcvc/r3ds"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <!-- <h2 class="title is-3">Video</h2> -->
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/waI3m7TuyNA?si=HwYPPjeoIE6AkanT" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <!--/ Paper video. -->
+    </div>  
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">   
+      <!-- Abstract. --> 
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <!-- <h2 class="title is-3">Abstract</h2> -->
+          <div class="container is-max-desktop">
+            <div class="column has-text-centered">
+              <!-- <img src="./static/images/teaser.webp" class="interpolation-image crop_grey_line" alt="Teaser." / style="max-width: 100%;"> -->
+              <div class="crop_grey_line">
+                <video autoplay playsinline muted loop >
+                  <source src="./static/images/teaser.mov">
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="content has-text-justified">
+            <p>
+              We introduce the Reality-linked 3D Scenes (R3DS) dataset of synthetic 3D scenes mirroring the real-world scene arrangements from Matterport3D. Compared to prior work, R3DS has more complete and densely populated scenes with objects linked to real-world observations in panoramas. R3DS also provides an object support hierarchy, and matching object sets (e.g., same chairs around a dining table) for each scene. 
+            </p>
+            
+            <p>
+              Overall, R3DS contains 19K objects represented by 3784 distinct CAD models from over 100 object categories. We demonstrate the effectiveness of R3DS on the Panoramic Scene Understanding task. We find that: 1) training on R3DS enables better generalization; 2) support relation prediction trained with R3DS improves performance compared to heuristically calculated support; and 3) R3DS offers a challenging benchmark for future work on panoramic scene understanding.
+            </p>
+
+          </div>
+          
+        </div>
+      </div>
+      <!--/ Abstract. -->
+
+      
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+        <!-- Results. -->
+        <div class="content has-text-justified">
+          <div class="center-container">
+            <h3 class="title is-3">Dataset Overview</h3>
+          </div>
+
+          <h4 class="title is-4">R3DS Scenes (inst-colored)
+          </h4>
+          <p>
+            Examples of R3DS scenes colored by object instances, along with paired 360 degree observing videos from synthetic scenes and real scans using the same camera pose.
+          </p>
+          <div class="crop_grey_line">
+            <video autoplay playsinline muted loop >
+              <source src="./static/images/scenes_inst_color.mp4">
+            </video>
+          </div>
+
+          <h4 class="title is-4">R3DS Scenes (model-colored)</h4>
+          <p>
+            Examples of R3DS scenes colored by annotated CAD models that shows matched object instance sets are one of the main characteristics of R3DS scenes.
+          </p>
+          <div class="center-container">
+            <!-- <img src="./static/images/ood.webp" class="interpolation-image crop_grey_line" alt="ood_graph" style="max-width: 90%"/> -->
+            <div class="crop_grey_line">
+              <video autoplay playsinline muted loop >
+                <source src="./static/images/scenes_model_color.mp4">
+              </video>
+            </div>
+          </div>
+
+          <h4 class="title is-4">R3DS Scenes (texture-colored)</h4>
+          <!-- <img src="./static/images/part2motion.webp" class="interpolation-image crop_grey_line" alt="part2motion" /> -->
+          <p>
+            As R3DS scenes are linked to real panoramas, we can easily obtain textured 3D architectures from projection where objects are colored by semantic categories in below exampels.
+          </p>
+          <div class="crop_grey_line">
+            <video autoplay playsinline muted loop >
+              <source src="./static/images/scenes_tex_color.mp4">
+            </video>
+          </div>
+
+        </div>
+        <!--/ Results. -->
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+        <!-- Results. -->
+        <div class="content has-text-justified">
+          <div class="center-container">
+            <h3 class="title is-3">PanoSun Task</h3>
+          </div>
+
+          <!-- <h4 class="title is-4">R3DS Scenes (inst-colored)
+          </h4> -->
+          <p>
+            We demonstrate the value of R3DS on the Panoramic Scene Understanding task. We show that the more complete layouts and support relations in our dataset enable better performance and generalization. Our dataset offers a challenging benchmark for future work in scene understanding.
+          </p>
+          <div class="crop_grey_line">
+            <img src="./static/images/panosun.png" class="interpolation-image" alt="panosun"/>
+          </div>
+
+        </div>
+        <!--/ Results. -->
+    </div>
+  </section>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre>
+      </pre>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="">
+          <i class="fas fa-file-pdf"></i>
+        </a>
+        <a class="icon-link" href="https://github.com/3dlg-hcvc/cage" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+              The template is borrowed from <a href="https://nerfies.github.io/">Nerfies</a>.
+              Please check out their great work if you find it helpful as well.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
