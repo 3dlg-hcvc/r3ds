@@ -22,3 +22,14 @@ Coming soon, please stay tune!
 Please refer to the `DeepPanoContext` submodule
 
 ## Bibtex
+
+```
+@article{wu2024r3ds,
+    title={R3DS: Reality-linked 3D Scenes for Panoramic Scene Understanding}, 
+    author={Qirui Wu and Sonia Raychaudhuri and Daniel Ritchie and Manolis Savva and Angel X Chang},
+    year={2024},
+    eprint={2403.12301},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
