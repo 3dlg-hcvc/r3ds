@@ -18,7 +18,22 @@ Overall, R3DS contains 19K objects represented by 3784 distinct CAD models from 
 
 <img src="docs/static/images/scenes_model_color.webp" alt="drawing" style="width:100%"/>
 
-Coming soon, please stay tune!
+R3DS has been hosted on HuggingFace at https://huggingface.co/datasets/3dlg-hcvc/rlsd. You can request access from the HuggingFace page and proceed to checkout the data:
+```
+git clone git@hf.co:datasets/3dlg-hcvc/rlsd
+```
+
+The dataset is structured into different folders:
+```
+mp3d_arch -- contains a subset of the Matterport3D architecture files that we have used
+scenes -- contains the annotated json files for each scene
+renderings -- contains various renderings of the annotated scene
+    original_panoramas -- original panoramas (without annotations) from Matterport3D
+    annotated_panoramas -- panorama renderings colored by object instance ids
+    annotated_scene_hierarchy -- hierarchy of the annotated objects for each scene
+    annotated_topdown -- topdown images of each annotated scene colored by object instance ids
+annotated_model_ids.txt -- list of all model ids used to annotate the scenes
+```
 
 ## PanoSun Task
 
