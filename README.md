@@ -35,9 +35,9 @@ renderings -- contains various renderings of the annotated scene
 annotated_model_ids.txt -- list of all model ids used to annotate the scenes
 ```
 
-## PanoSun Task
+## TODO
 
-Please refer to the `DeepPanoContext` submodule
+- [ ] Add code reference to DPC experiments.
 
 ## Bibtex
 If you find our work useful, please cite
