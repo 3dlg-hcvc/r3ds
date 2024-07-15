@@ -35,6 +35,83 @@ renderings -- contains various renderings of the annotated scene
 annotated_model_ids.txt -- list of all model ids used to annotate the scenes
 ```
 
+The annotated scene json has the following structure:
+```
+{
+    "format": "sceneState",
+    "version": "v0.2.0",
+    "scene": {
+        "up": ..., # "x", "y" and "z"
+        "front": ..., # "x", "y" and "z"
+        "unit": 1,
+        "assetSource": [
+            "wayfair",
+            "3dw"
+        ],
+        "object": [
+            {
+                "id": "a_883",
+                "modelId": "wayfair.ANDO6573",
+                "index": 0,
+                "parentIndex": -1,
+                "parentId": "1_8_1",
+                "transform": {
+                    "rows": 4,
+                    "cols": 4,
+                    "data": ... # 1x16 array
+                },
+                "obb": {
+                        "centroid": ..., # 1x3 array
+                        "axesLengths": ..., # 1x3 array,
+                        "normalizedAxes": ..., # 1x9 array,
+                        "min": ..., # 1x3 array,
+                        "max": ... # 1x3 array
+                    }
+            }, ... # multiple object annotations
+        ],
+        "camera": [
+                {
+                    "up": ..., # "x", "y" and "z"
+                    "position": ..., # "x", "y" and "z"
+                    "target": ..., # "x", "y" and "z"
+                    "isOrtho": false,
+                    "name": "current"
+                }
+            ],
+        "arch": {
+            "ref": "mp3dArch.1pXnuDYAj8r_L1"
+        }
+    },
+    "selected": [],
+    "maskObjectAssignments": [
+        {
+            "photoId": ..., # same as viewpointId
+            "maskId": 279,
+            "clickPoint": [
+                0.8349366636325659,
+                0.4788185224119439
+            ],
+            "objectInstanceId": "a_883"
+        }, ... # multiple mask2object assignments
+    ],
+    "maskComments": [ # comments from annotators against missed annotations
+        {
+            "reason": "WRONG-CATEGORY",
+            "comment": "Picture",
+            "maskId": "304"
+        }, ... # multiple comments
+    ],
+    "maskInfos": [
+        {
+            "id": 276,
+            "label": "curtain", # category
+            "type": "mask",
+            "pointNormalized": ..., # "x" and "y"
+        }, ... # multiple mask infos
+    ]
+}
+```
+
 ## TODO
 
 - [ ] Add code reference to DPC experiments.
