@@ -6,7 +6,7 @@
 
 [Qirui Wu](https://qiruiw.github.io/), [Sonia Raychaudhuri](https://sonia-raychaudhuri.github.io/), [Daniel Ritchie](https://dritchie.github.io/), [Manolis Savva](https://msavva.github.io/), [Angel X. Chang](http://angelxuanchang.github.io/)
 
-[Project](https://3dlg-hcvc.github.io/r3ds/) | [arXiv](https://arxiv.org/abs/2403.12301) | [Data]()
+[Project](https://3dlg-hcvc.github.io/r3ds/) | [arXiv](https://arxiv.org/abs/2403.12301) | [Data (HuggingFace)](https://huggingface.co/datasets/3dlg-hcvc/r3ds)
 
 <img src="docs/static/images/teaser.webp" alt="drawing" style="width:100%"/>
 
