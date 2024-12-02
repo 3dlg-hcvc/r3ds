@@ -120,11 +120,9 @@ The annotated scene json has the following structure:
 If you find our work useful, please cite
 ```
 @article{wu2024r3ds,
-    title={R3DS: Reality-linked 3D Scenes for Panoramic Scene Understanding}, 
-    author={Qirui Wu and Sonia Raychaudhuri and Daniel Ritchie and Manolis Savva and Angel X Chang},
-    year={2024},
-    eprint={2403.12301},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+  title={R3DS: Reality-linked 3D Scenes for Panoramic Scene Understanding},
+  author={Wu, Qirui and Raychaudhuri, Sonia and Ritchie, Daniel and Savva, Manolis and Chang, Angel X},
+  journal={arXiv preprint arXiv:2403.12301},
+  year={2024}
 }
 ```
